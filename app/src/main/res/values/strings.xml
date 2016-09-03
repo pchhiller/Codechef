@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Codechef</string>
+
+    <string name="html">
+       <![CDATA[
+
+<h3>All submissions for this problem are available.</h3><h3><span>Read problems statements in </span><a href="/download/translated/LTIME39/mandarin/ALPHABET.pdf" target="_blank">Mandarin Chinese</a><span>, </span><a href="/download/translated/LTIME39/russian/ALPHABET.pdf" target="_blank">Russian</a><span> and </span><a href="/download/translated/LTIME39/vietnamese/ALPHABET.pdf" target="_blank">Vietnamese</a><span> as well.</span></h3>
+<p>Not everyone probably knows that Chef has younder brother Jeff. Currently Jeff learns to read.</p>
+<p>He knows some subset of the letter of Latin alphabet. In order to help Jeff to study, Chef gave him a book with the text consisting of <b>N</b> words. Jeff can read a word iff it consists only of the letters he knows.</p>
+<p>Now Chef is curious about which words his brother will be able to read, and which are not. Please help him!</p>
+<h3>Input</h3>
+<p>The first line of the input contains a lowercase Latin letter string <b>S</b>, consisting of the letters Jeff can read. Every letter will appear in <b>S</b> no more than once.</p>
+<p>The second line of the input contains an integer <b>N</b> denoting the number of words in the book.</p>
+<p>Each of the following <b>N</b> lines contains a single lowecase Latin letter string <b>W<sub>i</sub></b>, denoting the <b>i</b><sup>th</sup> word in the book.</p>
+<h3>Output</h3>
+<p>For each of the words, output "Yes" (without quotes) in case Jeff can read it, and "No" (without quotes) otherwise.</p>
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> ≤ <b>|S|</b> ≤ <b>26</b></li>
+<li><b>1</b> ≤ <b>N</b> ≤ <b>1000</b></li>
+<li><b>1</b> ≤ <b>|W<sub>i</sub>|</b> ≤ <b>12</b></li>
+<li>Each letter will appear in <b>S</b> no more than once.</li>
+<li><b>S, W<sub>i</sub></b> consist only of lowercase Latin letters.</li>
+</ul>
+<h3>Subtasks</h3>
+<ul>
+<li><b>Subtask #1 (31 point)</b>: <b>|S|</b> = <b>1</b>, i.e. Jeff knows only one letter.</li>
+<li><b>Subtask #2 (69 point)</b> : no additional constraints</li>
+</ul>
+<h3>Example</h3>
+<pre><b>Input:</b>
+act
+2
+cat
+dog
+
+<b>Output:</b>
+Yes
+No
+</pre>
+<h3>Explanation</h3>
+<p>The first word can be read.</p>
+<p>The second word contains the letters d, o and g that aren\'t known by Jeff.</p>    </div>]]>
+    </string>
+</resources>
